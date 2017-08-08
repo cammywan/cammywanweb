@@ -2,46 +2,130 @@ body{
 	 
    padding: 0px;
    margin: 0px;
-    height: 100vh;
+    
     
  }
 
 #gradient
 {
   width: 100%;
-  height: 100vh;
+  height: 800px;
   padding: 0px;
   margin: 0px;
 }
+.panel.ci{
+    padding: 0;
+    margin: 0;
+}
 
-h1{
+#introduction h1{
     color: white;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-size: 400%;
    
     
 }
-
-h2{
+#scroll2{margin-top: 10%;}
+#introduction h2{
     color: white;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 150%;
     
 }
-h3{
+#introduction h3{
     color: white;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 200%;
     
 }
+#conIntro{
+    height: 750px;
+}
+body {
+  background-color: #000;
+}
+
+
+section {
+  
+  width: 100%;
+  display: table;
+
+  
+}
+
+#scroll h2{
+    padding-top: 5%;
+}
+
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+    margin-top: 1.5%;
+}
+
+.scroll-down {
+  width: 32px;
+  bottom: 30px;
+  left: 50%;
+  margin-left: 48.5%;
+  display: block;
+  
+  height: 32px;
+  border: 2px solid #FFF;
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid white;
+    border-width: 0px 0 2px 2px;
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
 
 #introduction{
      position: relative;
   top: 50%;
   transform: translateY(-50%);
+    height: 100vh;
 }
 
 
@@ -54,10 +138,213 @@ h3{
 .icon>img{
     height:50px;
     display: inline-block;
-    padding: 0 1%;
+    margin: 0 1%;
     margin-top: 2%;
 }
 .icondiv{
+    padding-top;13%;
     margin-top: 1%;
+    
     text-align: center;
+    margin-left: -2%;
+    
+}
+
+
+
+#portfolioLanding h1{
+    color: white;
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+    line-height: 1.6em;
+    padding-left: 5%;
+    padding-top: 4%;
+}
+
+#portfolioLanding .icondiv{
+    
+    text-align: center;
+    width: 100%;
+    padding-left: 7%;
+    margin-top: 10%;
+}
+
+.panel.pl{
+    height: 900px;
+    background-color: coral;
+    margin: 0;
+   
+}
+
+
+.panel{
+    margin: 0;
+    border: none;
+}
+#summer1,#summer2{
+    
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+#summer{
+    padding-top: 5%;
+}
+#portfolio1 h1{
+    color: #FFE235;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 380%;
+    
+}
+#portfolio1 h2{
+    color: #FFE235;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    line-height: 150%;
+    font-size: 190%;
+    margin-top: 10%;
+}
+#portfolio1 h3{
+    color: #FFE235;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    line-height: 150%;
+    font-size: 170%;
+    margin-top: 10%;
+    padding-bottom: 5%;
+}
+.panel.p1{
+    background-color: #FF6F86;
+   
+}
+.panel.p5{
+    background-color: white;
+    
+}
+#bizFront{
+    border: 1px #CFCBCD solid;
+    margin-top:5%;
+}
+#bizBack{
+    padding-top:5% ;
+    padding-bottom: 15%;
+}
+
+#bizcard h1{
+    padding-top: 2%;
+    text-align: center;
+    font-family:'Pacifico', cursive;
+    font-size: 320%;
+    color: #9768A3;
+}
+.panel.p2{
+    background-color: #FFC5BE;
+    
+}
+#bizcard h3{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    line-height: 150%;
+    font-size: 170%;
+    margin-bottom: 3%;
+    color: #9768A3;
+}
+
+
+#postcard{
+padding-top: 17%;
+    margin-left: 5%;
+   
+}
+.panel.p3{
+    background-color: #FFFDA1;
+    
+}
+#bizcard,#farm,#loneliness{
+    padding-top: 12%;
+    padding-bottom: 20%;
+    text-align: center;
+}
+#postcard1{
+    padding-top: 12%;
+    padding-bottom: 20%;
+    text-align: center;
+}
+#postcard1 h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 320%;
+    color: #2BCFB2;
+    line-height: 140%;
+}
+#postcard1 h3{
+    font-family: 'Playfair Display', serif;
+    line-height: 150%;
+    font-size: 170%;
+    color: #2BCFB2;
+}
+#farm h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 320%;
+    color: #1FBF54;
+    line-height: 140%;
+}
+#farm h3{
+    font-family: 'Playfair Display', serif;
+    line-height: 150%;
+    font-size: 170%;
+    color: #1FBF54;
+}
+.panel.p4{
+    background-color: #94FFAA;
+    
+}
+
+#farmlogo{
+    padding-top: 2%;
+    padding-bottom: 20%;
+}
+#gatsby{
+    padding-top: 1%;
+}
+#gatsby1 h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 250%;
+    color: #555;
+    line-height: 140%;
+    text-align: center;
+}
+#gatsby1 h3{
+    font-family: 'Playfair Display', serif;
+    line-height: 150%;
+    font-size: 170%;
+    color: #555;
+    text-align: center;
+}
+#gatsby1{
+padding-bottom: 4%;}
+
+
+.panel.p6{
+    background-color: #DBB2BD;
+    
+}
+
+#loneliness h1{
+    padding-top: 13%;
+    font-family: 'Pacifico', cursive;
+    font-size: 320%;
+    color: white;
+    line-height: 140%;
+    text-align: center;
+}
+#loneliness h3{
+    font-family: 'Playfair Display', serif;
+    line-height: 150%;
+    font-size: 200%;
+    color: white;
+    text-align: center;
+}
+#lonely{
+    
+    padding-bottom: 5%;
 }
